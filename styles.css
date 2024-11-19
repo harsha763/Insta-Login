@@ -40,21 +40,21 @@ header .logo{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #2880d7;
+    background-color: #0079f4;
     color: #ffffff;
     border: none;
-    padding: 8px 6px;
+    padding: 5px;
     width: 80%;
     font-size: 16px;
     /* margin-bottom: 15px; */
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
     margin: 20px auto;
 }
 
 .fb-logo{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
 }
 .or-divider {
@@ -68,7 +68,7 @@ header .logo{
 .or-divider span {
     
     flex-grow: 16;
-    height: 1.10px;
+    height: 0.7px;
     background-color: #b3b3b3;
 }
 
@@ -91,7 +91,7 @@ form input {
     color: #555;
     padding: 10px;
     margin-bottom: 10px;
-    border-radius: 2px;
+    border-radius: 5px;
     font-size: 13px;
 }
 
